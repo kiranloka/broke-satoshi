@@ -16,7 +16,7 @@ interface EthereumWallet {
 
 type WalletData = SolanaWallet | EthereumWallet;
 
-const useGenerate = (blockchain: "Solana" | "Ethereum" | null) => {
+const useGenerate = (blockchain: "Solana" | "Ethereum" | "") => {
   if (!blockchain) {
     return {
       blockchain,

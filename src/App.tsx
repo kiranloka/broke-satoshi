@@ -13,7 +13,7 @@ function App() {
             <FaGoogleWallet />
           </div>
 
-          <h1 className="text-5xl font-bold mt-20 ">Broke Sathoshi Wallet</h1>
+          <h1 className="text-5xl font-bold mt-10 ">Broke Sathoshi Wallet</h1>
           <p>Generate your own solana and ethereum wallets</p>
         </div>
 

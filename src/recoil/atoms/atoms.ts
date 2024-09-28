@@ -20,7 +20,7 @@ export const privateKeyAtom = atom<string[]>({
   default: [],
 });
 
-export const blockchainSelectionAtom = atom<"Solana" | "Ethereum" | null>({
+export const blockchainSelectionAtom = atom<"Solana" | "Ethereum" | "">({
   key: "blockchainSelectionAtom",
-  default: null,
+  default: "",
 });
